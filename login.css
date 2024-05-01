@@ -1,0 +1,119 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto",sans-serif;
+    
+}
+.logo img{
+  height: 80px;
+  width: 180px;
+  padding-top: 10px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.center{
+    width: 350px;
+    border: 1px solid rgb(195,195,195);
+    border-radius: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.1);
+    border-radius: 6px;
+    font-size: 15px;
+}
+ .inputs .inputText{
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 15px;
+    width: 250px;
+
+} 
+ .inputs:focus{
+    outline: gray;
+} 
+ .inputbutton{
+   padding: 10px;
+   width: 270px;
+   margin-top: 15px;
+   background-color:#1877F2;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.line{
+    display: flex;
+   padding-bottom: 5px;
+   padding-left:35px;
+   margin-top:35px;
+
+} 
+.arrow{
+    background-color: gray;
+    height: 1px;
+    width: 120px;
+} 
+ .content{
+    color: gray;
+    margin-top: -8px;
+    margin-left: 4px;
+    margin-right: 4px;
+} 
+.icons{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+ .fab{
+    padding: 5px;
+    color:rgb(0,55, 107) ;
+} 
+.icons span{
+    color: rgb(0, 55,107);
+    font-size: 14px;
+    font-weight: 600;
+} 
+.icons a{
+    text-decoration: none;
+}
+ .forgotpw{
+    margin-top: auto;
+    color: rgb(3, 66,124);
+    margin-bottom: 26px;
+    font-size: 15px;
+} 
+.footer{
+   margin-top: 30px;
+   border: 1px solid rgb(195, 195, 195); 
+   padding: 20px;
+   width:310px;
+   border-radius: 4px;
+   box-shadow: 0 2px 4px rgba(0,0,0, 0.1);
+   display: flex;
+   font-size: 15px;
+
+} 
+.footer a{
+    color: rgb(0, 66, 128);
+    font-weight: 400;
+    margin-left:5px;
+    text-decoration: none;
+} 
+.footer p{
+    margin-left: 10%;
+}
+.last img{
+    height: 50px;
+    width: 175px;
+    margin-top: 12px;
+    font-size:12px;
+}
